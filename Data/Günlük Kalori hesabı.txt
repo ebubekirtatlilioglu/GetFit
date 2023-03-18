@@ -1,0 +1,62 @@
+Günlük kalori ihtiyacınızı hesaplamak için birkaç faktörü dikkate almanız gerekiyor. Bunlar: 
+
+Yaş: Yaşınız, metabolizmanızın hızını etkileyebileceğinden dolayı önemlidir. 
+
+Cinsiyet: Erkeklerin genellikle kadınlardan daha fazla kalori ihtiyaçları vardır. 
+
+Boy: Daha uzun bireyler genellikle daha fazla kalori ihtiyaçları vardır. 
+
+Kilo: Kilonuz, vücut kütlesinde bulunan yağ ve kas miktarınızı gösterir. Daha fazla kilo için daha fazla kalori gerekir. 
+
+Hareket seviyesi: Hareket seviyeniz, günlük aktivitelerinizin ne kadar yüksek olduğunu gösterir. Daha yüksek hareket seviyesi olan bireyler daha fazla kalori ihtiyaçları vardır. 
+
+Bazal metabolizma hızı (BMR), vücut ısısının sürdürülmesi, organların çalışması ve diğer fonksiyonların gerçekleştirilmesi için gereken enerjinin miktarıdır. Bu enerji, çoğunlukla vücuttaki yağ ve kas dokularından sağlanır. BMR, günlük aktivite seviyesi dikkate alınmaksızın, bir kişinin günlük kalori ihtiyacının bir ölçüsüdür. 
+
+BMR hesaplamak için aşağıdaki formül kullanılabilir: 
+
+Erkekler için: BMR = 66 + (6.2 x ağırlık (lb)) + (12.7 x boy (in)) - (6.76 x yaş (yıl)) 
+
+Kadınlar için: BMR = 655 + (4.35 x ağırlık (lb)) + (4.7 x boy (in)) - (4.7 x yaş (yıl)) 
+
+Bu formülü kullanarak, bir kişinin bazal metabolizma hızını hesaplayabilirsiniz. Örneğin, 35 yaşında, 170 cm boyunda ve 70 kg ağırlığında bir erkek için BMR şöyle olur: 
+
+BMR = 66 + (6.2 x 70 (lb)) + (12.7 x 67 (in)) - (6.76 x 35 (yıl)) 
+
+BMR = 66 + 434 + 868 - 237 
+
+BMR = 1121 kalori/gün 
+
+Bu BMR değeri, bir kişinin günlük kalori ihtiyacının bir ölçüsüdür. Ancak, bu değer kişinin günlük aktivite seviyesi dikkate alınmamıştır. Günlük aktivite seviyesi dikkate alındığında, bir kişinin günlük kalori ihtiyacı değişebilir. Örneğin, haftada 3 gün hafif egzersiz yapan bir erkek için günlük kalori ihtiyacı BMR x 1.55 olacaktır. Bu örnekte, günlük kalori ihtiyacı 1745 kalori olur. 
+
+ 
+
+1.55, hareket seviyesi faktörüdür. Hareket seviyesi faktörü, bir kişinin günlük aktivite seviyesi ile ilgilidir. BMR (bazal metabolizma hızı) değeri, bir kişinin vücut ısısının sürdürülmesi, organların çalışması ve diğer fonksiyonların gerçekleştirilmesi için gereken enerjinin miktarıdır. Bu enerji, çoğunlukla vücuttaki yağ ve kas dokularından sağlanır. BMR, günlük aktivite seviyesi dikkate alınmaksızın hesaplanır. Ancak, bir kişinin günlük aktivite seviyesi dikkate alındığında, günlük kalori ihtiyacı değişebilir. Bu nedenle, hareket seviyesi faktörü BMR değerine eklenir ve günlük kalori ihtiyacı hesaplanır. 
+
+ 
+
+ 
+
+ 
+
+Aşağıdaki tablo, hareket seviyesi için birkaç örnek verir: 
+
+Hareket etmiyorum: 1.2 
+
+Haftada 1-3 gün hafif egzersiz yapıyorum: 1.375 
+
+Haftada 3-5 gün hafif egzersiz yapıyorum: 1.55 
+
+Haftada 6-7 gün hafif egzersiz yapıyorum: 1.725 
+
+Haftada 1-3 gün orta seviyede egzersiz yapıyorum: 1.9 
+
+Haftada 3-5 gün orta seviyede egzersiz yapıyorum: 2.075 
+
+Haftada 6-7 gün orta seviyede egzersiz yapıyorum: 2.25 
+
+Örneğin, haftada 3 gün hafif egzersiz yapan bir erkek için hareket seviyesi faktörü 1.55 olacaktır. Bu nedenle, bu erkek için günlük kalori ihtiyacı BMR x 1.55 olacaktır. 
+
+
+
+Kadınlar için; 65.5 + (9.6 x ağırlık (kilogram) ) + (1.8 x boy uzunluğu (cm) ) – (4.7 x yaş) formülü kullanılırken,
+ erkekler için bu formül; 66.5 + (13.7 x ağırlık (kilogram) ) + (5 x boy uzunluğu (cm) ) – (6.7 x yaş)

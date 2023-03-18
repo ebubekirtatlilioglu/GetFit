@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CalorieTracker
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Kullanıcının günlük kalori ihtiyacını belirleyen değişkenler
+            int age = 25;
+            int weight = 75;
+            int height = 180;
+            char gender = 'M';
+            int dailyActivityLevel = 2;
+            int desiredWeight = 70;
+
+            // Günlük kalori ihtiyacını hesaplama
+            int dailyCalorieNeeds = CalculateCalorieNeeds(age, weight, height, gender, dailyActivityLevel, desiredWeight);
+
+            // Kullanıcının günlük kalori ihtiyacını ekrana yazdırma
+            Console.WriteLine("Günlük kalori ihtiyacınız: " + dailyCalorieNeeds + " kalori");
+        }
+
+        static int CalculateCalorieNeeds(int age, int weight, int height, char gender, int dailyActivityLevel, int desiredWeight)
+        {
+            // Kullanıcının kilo farkını hesaplama
+            int weightDifference = weight - desiredWeight;
+
+            // BMR (Basal Metabolic Rate) hesaplama
+            int BMR = 0;
+            if (gender == 'M')
+            {
+                BMR = 66 + (13.7 * weight) + (5 * height) - (6.8 * age);
+            }
+            else if (gender == 'F')
+            {
+                BMR = 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age);
+            }
+
+            // Günlük kalori ihtiyacını hesaplama
+            int dailyCalorieNeeds = BMR;
+            if (dailyActivityLevel == 1)
+            {
+                dailyCalorieNeeds = (int)(BMR * 1.2);
+            }
+            else if (dailyActivityLevel == 2)
+            {
+                dailyCalorieNeeds = (int)(BMR * 1.375);
+            }
+            else if (dailyActivityLevel == 3)
+            {
+                dailyCalorieNeeds = (int)(BMR * 1.55);
+            }
+            else if (dailyActivityLevel == 4)
+            {
+                dailyCalorieNeeds = (int)(BMR * 1.725);
+            }
+            else if (dailyActivityLevel == 5)
+            {
+                dailyCalorieNeeds = (int)(BMR * 1.9);
+            }
+
+            // Kiloyu düzenlemek için günlük kalori ihtiyacını düzenleme
+            if (weightDifference > 0)
+            {
